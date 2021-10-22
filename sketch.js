@@ -15,6 +15,7 @@ function preload() {
 
 function setup() {
   player = createSprite(190,375,20,20);
+  player = 0.1;
   //player.addImage(playerImg);
 
   galaxianGroup = createGroup();
